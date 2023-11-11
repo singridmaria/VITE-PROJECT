@@ -1,14 +1,16 @@
-import About from "./views/About"
-import Banner from "./views/Banner"
+import Header from "./views/header/Header"
+import HomeView from "./views/home/HomeView"
 
 function App() {
 
-
   return (
     <>
-      <h1>Principal</h1>
-      <About />
-      <Banner />
+
+    <Header/>
+    <HomeView/>
+    <HomeView/>
+    <HomeView/>
+    <HomeView/>
 
     </>
   )
