@@ -1,16 +1,17 @@
+import Footer from "./views/footer/Footer"
 import Header from "./views/header/Header"
 import HomeView from "./views/home/HomeView"
+
 
 function App() {
 
   return (
     <>
 
-    <Header/>
-    <HomeView/>
-    <HomeView/>
-    <HomeView/>
-    <HomeView/>
+      <Header />
+      <HomeView />
+      <HomeView />
+      <Footer />
 
     </>
   )

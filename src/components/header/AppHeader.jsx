@@ -1,3 +1,4 @@
+import ButtonHomeView from "../homeview/ButtonHomeView"
 import ButtonHeader from "./ButtonHeader"
 import "./style.css"
 
@@ -11,6 +12,7 @@ const AppHeadder = () => {
     <ButtonHeader label="SKILLS"/>
     <ButtonHeader label="PORTFOLIO"/>
     <ButtonHeader label="CONTACT"/>
+    <ButtonHomeView/>
     </div>
     </>
     )
