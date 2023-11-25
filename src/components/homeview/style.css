@@ -16,3 +16,13 @@
     overflow: hidden;
     z-index: 1;
 }
+
+.app-Home{
+    background-color: rgb(250, 250, 127);
+    height: 100%;
+}
+.corpo{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

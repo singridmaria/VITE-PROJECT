@@ -1,9 +1,18 @@
 import  "./style.css"
-const Home = () =>{
+const Home = (props) =>{
+    const {conteudo} = props;
     return(
         <>
         <>
-    <div className="app-Home">HOME</div>
+
+        <div className="corpo">
+            
+            <div className="app-Home">{conteudo}</div>
+            
+
+</div>
+    
+    
     </>
         </>
     )

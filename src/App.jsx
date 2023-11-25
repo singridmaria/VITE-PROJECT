@@ -10,7 +10,6 @@ function App() {
 
       <Header />
       <HomeView />
-      <HomeView />
       <Footer />
 
     </>
