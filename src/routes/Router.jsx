@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router-dom"
 import App from "../App"
-
 import About from "../views/about/About"
 import Services from "../views/services/Services"
 import Skills from "../views/skills/Skills"
