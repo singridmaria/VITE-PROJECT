@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <>
 
-            <Home backgroundColor="red" conteudo="CONTATO" />
+            <Home conteudo="CONTATO" />
 
         </>
     )

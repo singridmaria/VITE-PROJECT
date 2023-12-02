@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <>
 
-            <Home backgroundColor="red" conteudo="SKILLS: HTML (HyperText Markup Language) - 
+            <Home conteudo="SKILLS: HTML (HyperText Markup Language) - 
                                                 CSS (Cascading Style Sheets) - 
                                                 JavaScript: - 
                                                 Frameworks e bibliotecas" />

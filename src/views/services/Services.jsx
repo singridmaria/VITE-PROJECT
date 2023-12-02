@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <>
 
-<Home backgroundColor="red" conteudo="SERVIÇOS- Power BI: Transformo dados em insights visualmente impactantes. - Consultas SQL Server: Proficiência em extrair o máximo de informações do banco de dados. - Desenvolvimento Web: Crio páginas envolventes com HTML, CSS e JavaScript." />
+<Home conteudo="SERVIÇOS- Power BI: Transformo dados em insights visualmente impactantes. - Consultas SQL Server: Proficiência em extrair o máximo de informações do banco de dados. - Desenvolvimento Web: Crio páginas envolventes com HTML, CSS e JavaScript." />
 
         </>
     )

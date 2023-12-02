@@ -5,7 +5,7 @@ const Portfolio = () => {
     return (
         <>
 
-            <Home backgroundColor="red" conteudo="PORTIFOLIO" />
+            <Home conteudo="PORTIFOLIO" />
 
         </>
     )
