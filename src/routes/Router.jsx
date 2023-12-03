@@ -5,6 +5,7 @@ import Services from "../views/services/Services"
 import Skills from "../views/skills/Skills"
 import Portfolio from "../views/portfolio/Portfolio"
 import Contact from "../views/contact/contact"
+import Home from "../components/homeview/Home"
 
 
 const router = createBrowserRouter([
@@ -13,23 +14,27 @@ const router = createBrowserRouter([
         element: <App />,
         children: [
             {
-                path: '/AboutMe',
+                path: '/home',
+                element: <Home />
+            },
+            {
+                path: '/aboutMe',
                 element: <About />
             },
             {
-                path: '/Services',
+                path: '/services',
                 element: <Services />
             },
             {
-                path: '/Skills',
+                path: '/skills',
                 element: <Skills />
             },
             {
-                path: '/Portfolio',
+                path: '/portfolio',
                 element: <Portfolio />
             },
             {
-                path: '/Contact',
+                path: '/contact',
                 element: <Contact />
             },
 

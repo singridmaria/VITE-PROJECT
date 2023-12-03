@@ -9,22 +9,22 @@ const AppHeadder = () => {
         <>
             <div className="app-header">
                 <nav className="nav-buttons">
-                    <Link to="/">
+                    <Link to="/home">
                         <ButtonHeader label="HOME" />
                     </Link>
-                    <Link to="/AboutMe">
+                    <Link to="/aboutMe">
                         <ButtonHeader label="ABOUT ME" />
                     </Link>
-                    <Link to="/Services">
+                    <Link to="/services">
                         <ButtonHeader label="SERVICES" />
                     </Link>
-                    <Link to="/Skills">
+                    <Link to="/skills">
                         <ButtonHeader label="SKILLS" />
                     </Link>
-                    <Link to="/Portfolio">
+                    <Link to="/portfolio">
                         <ButtonHeader label="PORTFOLIO" />
                     </Link>
-                    <Link to="/Contact">
+                    <Link to="/contact">
                         <ButtonHeader label="CONTACT" />
                     </Link>
 
