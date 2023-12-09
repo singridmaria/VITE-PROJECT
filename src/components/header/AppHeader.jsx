@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import ButtonHomeView from "../homeview/ButtonHomeView"
 import ButtonHeader from "./ButtonHeader"
 import "./style.css"
@@ -35,7 +35,7 @@ const AppHeadder = () => {
                 </nav>
 
             </div>
-            <Outlet />
+
         </>
     )
 }
