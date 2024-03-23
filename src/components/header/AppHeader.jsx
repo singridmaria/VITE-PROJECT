@@ -27,8 +27,9 @@ const AppHeadder = () => {
                     <Link to="/contact">
                         <ButtonHeader label="CONTACT" />
                     </Link>
-
-
+                    <Link to="/dashboard">
+                        <ButtonHeader label="DASHBOARD" />
+                    </Link>
 
                     <ButtonHomeView label="HIRE ME" />
 

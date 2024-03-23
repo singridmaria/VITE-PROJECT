@@ -1,19 +1,19 @@
-import  "./style.css"
-const Home = (props) =>{
-    const {conteudo} = props;
-    return(
+import "./style.css"
+const Home = (props) => {
+    const { conteudo } = props;
+    return (
         <>
-        <>
+            <>
 
-        <div className="corpo">
-            
-            <div className="app-Home">{conteudo}</div>
-            
+                <div className="corpo">
 
-</div>
-    
-    
-    </>
+                    <div className="app-Home">{conteudo}</div>
+
+
+                </div>
+
+
+            </>
         </>
     )
 }

@@ -7,6 +7,7 @@ import Portfolio from "../views/portfolio/Portfolio"
 import Contact from "../views/contact/contact"
 import HomeView from "../views/home/HomeView"
 import Principal from "../views/home/Principal"
+import Dashboard from "../views/dashboard/dashboard"
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
                 path: '/contact',
                 element: <Contact />
             },
+            {
+                path: '/dashboard',
+                element: <Dashboard />
+            },
+            
 
 
         ]

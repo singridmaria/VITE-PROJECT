@@ -1,9 +1,9 @@
 import "./style.css"
 
-const ButtonHomeView = ({label, onClick}) => {
+const ButtonHomeView = ({ label, onClick }) => {
     return (
         <>
-            <button className = "buttonHomeView" onClick={onClick}>{label}</button>
+            <button className="buttonHomeView" onClick={onClick}>{label}</button>
         </>
     )
 }
