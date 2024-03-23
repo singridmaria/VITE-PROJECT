@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Home from "../../components/homeview/Home";
+import Buttons from "../../components/buttons/Button";
 
 
 const Dashboard = () => {
@@ -31,19 +33,25 @@ const Dashboard = () => {
 
     return (
         <>
-            <form>
-                <h3>Cadastrar <br /> linguagem de programação</h3>
-                <div className="input-form">
-                    <input type="text" name="lang" onChange={inputHandler} />
-                </div>
-                <div className="input-form">
-                    <input type="text" name="percentage" onChange={inputHandler} />
-                </div>
-                <div className="input-form">
-                    <button onClick={addLanguage} className="add">Cadastar</button>
-                </div>
-            </form>
+            <Home conteudo={
+
+                <form>
+                    <h3>Cadastrar <br /> linguagem de programação</h3>
+                    <div className="input-form">
+                        <input type="text" name="lang" onChange={inputHandler} />
+                    </div>
+                    <br />
+                    <div className="input-form">
+                        <input type="text" name="percentage" onChange={inputHandler} />
+                    </div>
+                    <br /><br />
+                    <div className="input-form">
+                        <Buttons onClick={addLanguage} label="CADASTRAR" > </Buttons>
+                    </div>
+                </form>
+            }>  </Home>
         </>
+
     )
 }
 export default Dashboard
